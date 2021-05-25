@@ -8,13 +8,8 @@
 
 simple personal resume application created by Angular and Github pages.
 
- [Live Demo](https://aitahtman.github.io/cv)
+ [Live Demo](https://simon-lepennec.github.io/cv)
 
-
-
-## PREVIEW
-
-![preview animation](src/assets/img/respo.gif)
 
 
 ## USAGE
