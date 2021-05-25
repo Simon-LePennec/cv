@@ -8,7 +8,8 @@
 </h2>
 
 <div class="text-secondary sub-h">
-    {{this.store.cvData.profile.city}} {{this.store.cvData.profile.phone}}
+    <mat-icon aria-hidden="false" aria-label="location icon">location_on</mat-icon> {{this.store.cvData.profile.city}} 
+    <mat-icon aria-hidden="false" aria-label="mail icon">mail</mat-icon> {{this.store.cvData.profile.phone}}
     <a [href]="this.store.cvData.profile.mail" class='text-primary'> {{this.store.cvData.profile.mail}}</a>
 </div>
 
