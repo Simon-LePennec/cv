@@ -3,7 +3,7 @@
 
 
 
-simple personal resume application created by Angular and Github pages.
+Simple personal resume application created by Angular and Github pages.
 
  [Live Demo](https://simon-lepennec.github.io/cv)
 
@@ -17,7 +17,8 @@ simple personal resume application created by Angular and Github pages.
 git clone https://github.com/Simon-LePennec/cv.git
 ```
 
-you can also make a fork on your github account. 
+You can also make a fork on your github account. 
+
 
 #### 2 - installing the dependencies
 ```shell
@@ -26,11 +27,13 @@ npm install
 npm install -g angular-cli-ghpages
 ```
 
+
 #### 3 - setting your personal data
 
-for that, you have juste to edited the file _src/assets/data/perso.json_
+For that, you have juste to edited the file _src/assets/data/perso.json_
 
 NB : for the skills part, you need to choose an icon from [Fontawesome's gallery](https://fontawesome.com/icons?d=gallery).
+
 
 
 #### 4 - deploying the app on Github pages 
@@ -46,7 +49,7 @@ ng build --prod --base-href https://[username].github.io/[repo]/
 ngh --no-silent
 ```
 
-after that you can visit your personal page on **https://[username].github.io/[repo]**
+After that you can visit your personal page on **https://[username].github.io/[repo]**
 
 
 #### 5 - Advanced use
